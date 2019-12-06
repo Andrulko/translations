@@ -2,19 +2,19 @@
 flarum-likes:
   admin:
     permissions:
-      like_posts_label: 'Like posts'
+      like_posts_label: 'Використовувати систему симпатій'
   forum:
     notifications:
       others_text: '=> core.ref.some_others'
-      post_liked_text: '{username} liked your post'
+      post_liked_text: '{username} сподобалося Ваше повідомлення'
     post_likes:
-      title: 'Users Who Like This'
+      title: 'Повідомлення сподобалось...'
     post:
-      like_link: Like
-      liked_by_self_text: '{users} like this.'
-      liked_by_text: '{users} likes this.|{users} like this.'
+      like_link: Подобається
+      liked_by_self_text: '{users} подобається це.'
+      liked_by_text: '{users} подобається це.|{users} подобається це.'
       others_link: '=> core.ref.some_others'
-      unlike_link: Unlike
+      unlike_link: Не подобається
       you_text: '=> core.ref.you'
     settings:
-      notify_post_liked_label: 'Someone likes one of my posts'
+      notify_post_liked_label: 'Комусь подобається одне з моїх повідомлень'
