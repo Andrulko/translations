@@ -7,7 +7,7 @@ flarum-sticky:
     badge:
       sticky_tooltip: '=> flarum-sticky.ref.sticky'
     discussion_controls:
-      sticky_button: 'Épingler'
+      sticky_button: '=> flarum-sticky.ref.sticky'
       unsticky_button: Désépingler
     post_stream:
       discussion_stickied_text: '%1$s a épinglé cette discussion.'
