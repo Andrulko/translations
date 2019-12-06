@@ -2,15 +2,15 @@
 flarum-approval:
   admin:
     permissions:
-      approve_posts_label: 'Approve posts'
-      reply_without_approval_label: 'Reply to discussions without approval'
-      start_discussions_without_approval_label: 'Start discussions without approval'
+      approve_posts_label: 'Схвалювати повідомлення'
+      reply_without_approval_label: 'Відповідати без схвалення'
+      start_discussions_without_approval_label: 'Почати дискусію без схвалення'
   forum:
     badge:
       awaiting_approval_tooltip: '=> flarum-approval.ref.awaiting_approval'
     post_controls:
-      approve_button: Approve
+      approve_button: Схвалити
     post:
       awaiting_approval_text: '=> flarum-approval.ref.awaiting_approval'
   ref:
-    awaiting_approval: 'Awaiting approval'
+    awaiting_approval: 'В очікуванні схвалення'
