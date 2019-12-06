@@ -2,5 +2,5 @@
 flarum-emoji:
   forum:
     composer:
-      emoji_tooltip: 'Insert emoji'
-      type_to_search_text: 'Type to search for an emoji'
+      emoji_tooltip: 'Вставити емоджі'
+      type_to_search_text: 'Для пошуку емоджі, почніть печатати (англ.)'
