@@ -4,7 +4,7 @@ flarum-auth-github:
     github_settings:
       client_id_label: 'Client ID'
       client_secret_label: 'Client Secret'
-      title: 'GitHub Settings'
+      title: 'Налаштування GitHub'
   forum:
     log_in:
-      with_github_button: 'Log In with GitHub'
+      with_github_button: 'Увійти через GitHub'
