@@ -4,7 +4,7 @@ flarum-auth-facebook:
     facebook_settings:
       app_id_label: 'App ID'
       app_secret_label: 'App Secret'
-      title: 'Facebook Settings'
+      title: 'Налаштування Facebook'
   forum:
     log_in:
-      with_facebook_button: 'Log In with Facebook'
+      with_facebook_button: 'Увійти через Facebook'
