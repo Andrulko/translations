@@ -2,21 +2,21 @@
 flarum-mentions:
   forum:
     composer:
-      mention_tooltip: 'Mention a user or post'
-      reply_to_post_text: 'Reply to #{number}'
+      mention_tooltip: 'Згадати користувача або повідомлення'
+      reply_to_post_text: 'Відповісти на #{number}'
     notifications:
       others_text: '=> core.ref.some_others'
-      post_mentioned_text: '{username} replied to your post'
-      user_mentioned_text: '{username} mentioned you'
+      post_mentioned_text: '{username} відповів(ла) на Ваше повідомлення'
+      user_mentioned_text: '{username}  згадав(ла) Вас'
     post:
-      mentioned_by_self_text: '{users} replied to this.'
-      mentioned_by_text: '{users} replied to this.'
+      mentioned_by_self_text: '{users} відповіли на це повідомлення.'
+      mentioned_by_text: '{users} відповіли на це повідомлення.'
       others_text: '=> core.ref.some_others'
-      quote_button: Quote
+      quote_button: Цитата
       reply_link: '=> core.ref.reply'
       you_text: '=> core.ref.you'
     settings:
-      notify_post_mentioned_label: 'Someone replies to one of my posts'
-      notify_user_mentioned_label: 'Someone mentions me in a post'
+      notify_post_mentioned_label: 'Хтось відповідає на одне з моїх повідомлень'
+      notify_user_mentioned_label: 'Хтось згадує мене в повідомленні'
     user:
-      mentions_link: Mentions
+      mentions_link: Згадування
