@@ -1,9 +1,10 @@
+---
 flarum-akismet:
-    admin:
-        akismet_settings:
-            api_key_label: 'API Key'
-            title: 'Akismet instellingen'
-    forum:
-        post:
-            akismet_flagged_text: 'Gedetecteerd door Akismet'
-            not_spam_button: 'Geen spam'
+  admin:
+    akismet_settings:
+      api_key_label: 'API Key'
+      title: 'Akismet instellingen'
+  forum:
+    post:
+      akismet_flagged_text: 'Gedetecteerd door Akismet'
+      not_spam_button: 'Geen spam'
