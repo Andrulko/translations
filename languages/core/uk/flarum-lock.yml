@@ -2,17 +2,17 @@
 flarum-lock:
   admin:
     permissions:
-      lock_discussions_label: 'Lock discussions'
+      lock_discussions_label: 'Закривати дискусії'
   forum:
     badge:
-      locked_tooltip: Locked
+      locked_tooltip: Закрито
     discussion_controls:
-      lock_button: Lock
-      unlock_button: Unlock
+      lock_button: Закрити
+      unlock_button: Відкрити
     notifications:
-      discussion_locked_text: '{username} locked'
+      discussion_locked_text: '{username} закрив(ла)'
     post_stream:
-      discussion_locked_text: '{username} locked the discussion.'
-      discussion_unlocked_text: '{username} unlocked the discussion.'
+      discussion_locked_text: '{username} закрив(ла) дискусію.'
+      discussion_unlocked_text: '{username} відкрив(ла) дискусію.'
     settings:
-      notify_discussion_locked_label: 'Someone locks a discussion I started'
+      notify_discussion_locked_label: 'Хтось закрив мою дискусію'
