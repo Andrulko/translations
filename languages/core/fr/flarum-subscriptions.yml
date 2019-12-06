@@ -9,7 +9,7 @@ flarum-subscriptions:
       unfollow_button: Se désabonner
       unignore_button: Ne plus ignorer
     index:
-      following_link: 'Abonnements'
+      following_link: '=> flarum-subscriptions.ref.following'
     notifications:
       new_post_text: '%1$s a publié un message'
     settings:
