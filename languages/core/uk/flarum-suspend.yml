@@ -2,20 +2,20 @@
 flarum-suspend:
   admin:
     permissions:
-      suspend_users_label: 'Suspend users'
+      suspend_users_label: 'Блокувати користувачів'
   forum:
     notifications:
-      user_suspended_text: '{username} suspended you for {timeReadable}'
-      user_unsuspended_text: '{username} unsuspended you'
+      user_suspended_text: '{username} заблокував Вас на {timeReadable}'
+      user_unsuspended_text: '{username} розблокував Вас'
     suspend_user:
-      indefinitely_label: 'Suspended indefinitely'
-      limited_time_days_text: ' days'
-      limited_time_label: 'Suspended for a limited time...'
-      not_suspended_label: 'Not suspended'
-      status_heading: 'Suspension Status'
+      indefinitely_label: 'Заблокований назавжди'
+      limited_time_days_text: ' днів'
+      limited_time_label: 'Заблокований на деякий час...'
+      not_suspended_label: 'Не заблокований'
+      status_heading: 'Статус блокування'
       submit_button: '=> core.ref.save_changes'
-      title: 'Suspend {username}'
+      title: 'Заблокувати {username}'
     user_badge:
-      suspended_tooltip: Suspended
+      suspended_tooltip: Заблокований
     user_controls:
-      suspend_button: Suspend
+      suspend_button: Заблокувати
