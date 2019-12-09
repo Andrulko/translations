@@ -1,9 +1,10 @@
+---
 flarum-akismet:
-    admin:
-        akismet_settings:
-            api_key_label: 'API Key'
-            title: Akismet-Einstellungen
-    forum:
-        post:
-            akismet_flagged_text: 'Von Akismet als Spam makiert'
-            not_spam_button: 'Kein Spam'
+  admin:
+    akismet_settings:
+      api_key_label: 'API Key'
+      title: 'Akismet-Einstellungen'
+  forum:
+    post:
+      akismet_flagged_text: 'Von Akismet als Spam makiert'
+      not_spam_button: 'Kein Spam'

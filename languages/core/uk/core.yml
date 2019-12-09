@@ -1,0 +1,436 @@
+---
+core:
+  admin:
+    add_extension:
+      developer_text: 'Якщо Ви розробник, Ви можете <a> прочитати документацію </a> і почати створювати власні розширення.'
+      install_text: 'У той же час, Ви можете знайти розширення на <a> офіційному сайті спільноти Flarum </a> і встановити їх за допомогою Composer.'
+      temporary_text: 'Незабаром, цей діалог дозволить Вам легко додавати розширення на свій форум. Ми створюємо екосистему розширень!'
+      title: 'Встановлення розширень'
+    appearance:
+      colored_header_label: 'Кольорова шапка'
+      colors_heading: Кольори
+      colors_text: 'Виберіть два кольори для стилізації форуму. Перший буде використовуватися в якості кольору підсвічування, другий буде використовуватися в якості фону стильових елементів.'
+      custom_footer_heading: 'Редагувати кастомний футер'
+      custom_footer_text: '=> core.ref.custom_footer_text'
+      custom_header_heading: 'Редагувати кастомну шапку'
+      custom_header_text: 'Спеціальний HTML, який буде відображатися в самому верху сторінки над власним заголовком Flarum.'
+      custom_styles_heading: 'Призначені для користувача стилі'
+      custom_styles_text: 'Налаштування зовнішнього вигляду форуму за допомогою призначеного для користувача коду LESS / CSS, який перекриває стандартні стильові конструкції Flarum.'
+      dark_mode_label: 'Темний режим'
+      edit_css_button: 'Редагувати CSS'
+      edit_footer_button: '=> core.ref.custom_footer_title'
+      edit_header_button: '=> core.ref.custom_header_title'
+      enter_hex_message: 'Будь ласка, введіть код кольору в HEX-форматі.'
+      favicon_heading: Favicon
+      favicon_text: 'Завантаження зображення, яке буде відображатися в якості значка форуму.'
+      logo_heading: Логотип
+      logo_text: 'Завантаження зображення, яке буде відображатися замість заголовка форуму.'
+      submit_button: '=> core.ref.save_changes'
+    basics:
+      all_discussions_label: '=> core.ref.all_discussions'
+      default_language_heading: 'Мова за замовчуванням'
+      forum_description_heading: 'Опис форуму'
+      forum_description_text: 'Введіть короткий опис спільноти. Опис з''явиться в meta-тегу і буде відображатися в пошукових системах.'
+      forum_title_heading: 'Назва форуму'
+      home_page_heading: 'Головна сторінка'
+      home_page_text: 'Виберіть сторінку, яку користувачі будуть бачити при відвідуванні форуму. При введенні призначених для користувача значень, використовуйте шлях щодо кореня форуму.'
+      saved_message: 'Зміни збережені.'
+      show_language_selector_label: 'Показувати діалог вибору мов'
+      submit_button: '=> core.ref.save_changes'
+      welcome_banner_heading: 'Банер вітання'
+      welcome_banner_text: 'Введіть текст, який буде відображатися на всіх сторінках форуму. Використовуйте цей елемент для того, щоб вітати гостей форуму.'
+    dashboard:
+      clear_cache_button: 'Очистити кеш'
+      tools_button: Iнструменти
+    edit_css:
+      customize_text: 'Налаштування зовнішнього вигляду форуму за допомогою користувацького коду LESS/CSS, який перекриває <a>стандартні стильові конструкції </a> Flarum.'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Редагування CSS'
+    edit_footer:
+      customize_text: '=> core.ref.custom_footer_text'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_footer_title'
+    edit_group:
+      color_label: '=> core.ref.color'
+      delete_button: 'Видалити групу'
+      delete_confirmation: 'Ви впевнені , що хочете видалити групу? Користувачі, що знаходяться в цій групі, не будуть видалені.'
+      icon_label: 'Іконка'
+      icon_text: 'Введіть назву будь-якого класу іконки <a>Font Awesome</a>, <em>без</em> префіксу <code>fa-</code>.'
+      name_label: Назва
+      plural_placeholder: 'Множина (Приклад: Модератори)'
+      singular_placeholder: 'Однина (Приклад: Модератор)'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Створити групу'
+    edit_header:
+      customize_text: 'Спеціальний HTML, який буде відображатися в самому верху сторінки над власним заголовком Flarum.'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.custom_header_title'
+    email:
+      addresses_heading: Адреси
+      driver_heading: 'Choose a Driver'
+      driver_label: Драйвер
+      from_label: Відправник
+      heading: '=> core.ref.email'
+      mail_encryption_label: Encryption
+      mail_host_label: Host
+      mail_mailgun_domain_label: Domain
+      mail_mailgun_secret_label: 'Secret key'
+      mail_mandrill_secret_label: 'Secret key'
+      mail_password_label: '=> core.ref.password'
+      mail_port_label: Port
+      mail_ses_key_label: Key
+      mail_ses_region_label: Region
+      mail_ses_secret_label: Secret
+      mail_username_label: '=> core.ref.username'
+      mailgun_heading: 'Mailgun Settings'
+      mandrill_heading: 'Mandrill Settings'
+      ses_heading: 'SES Settings'
+      smtp_heading: 'SMTP Settings'
+      submit_button: '=> core.ref.save_changes'
+      text: 'Налаштуйте параметри SMTP та адреси вашого форуму, які будуть використовуватися для відправки e-mail.'
+    extensions:
+      add_button: 'Додати розширення'
+      settings_button: '=> core.ref.settings'
+      uninstall_button: Видалити
+    header:
+      log_out_button: '=> core.ref.log_out'
+    loading:
+      title: 'Будь ласка зачекайте...'
+    nav:
+      appearance_button: Оформлення
+      appearance_text: 'Налаштування кольорів, логотипів та інших змінних.'
+      basics_button: Основні налаштування
+      basics_text: 'Налаштування нази форуму, локалізації та інших базових параметрів.'
+      dashboard_button: Консоль
+      dashboard_text: 'Перший погляд на Ваш форум.'
+      email_button: '=> core.ref.email'
+      email_text: 'Налаштування параметрів електронної пошти.'
+      extensions_button: Розширення
+      extensions_text: 'Додавання додаткового функціоналу за допомогою розширень.'
+      permissions_button: Дозволи
+      permissions_text: 'Налаштування прав доступу для груп користувачів.'
+    permissions_controls:
+      allow_indefinitely_button: Необмежено
+      allow_some_minutes_button: 'На {count} хвилини|На {count} хвилин'
+      allow_ten_minutes_button: 'На 10 хвилин'
+      allow_until_reply_button: 'До відповіді'
+      everyone_button: Всі
+      members_button: '=> core.group.members'
+      signup_closed_button: Закрито
+      signup_open_button: Відкрито
+    permissions:
+      allow_post_editing_label: 'Дозволити редагувати повідомлення'
+      allow_renaming_label: 'Дозволити перейменування'
+      create_heading: Створити
+      delete_discussions_forever_label: 'Видаляти дискусії (фізично)'
+      delete_discussions_label: 'Видаляти дискусії'
+      delete_posts_forever_label: 'Видаляти повідомлення (фізично)'
+      delete_posts_label: 'Видаляти повідомлення'
+      edit_posts_label: 'Редагувати повідомлення'
+      edit_users_label: 'Edit users'
+      global_heading: Глобальні
+      moderate_heading: Модерація
+      new_group_button: 'Нова група'
+      participate_heading: Участь
+      read_heading: Читати
+      rename_discussions_label: 'Перейменовувати дискусії'
+      reply_to_discussions_label: 'Відповідати в дискусіях'
+      sign_up_label: 'Реєстрація'
+      start_discussions_label: 'Створювати дискусії'
+      view_discussions_label: 'Читати дискусії'
+      view_last_seen_at_label: 'View user last seen time'
+      view_post_ips_label: 'Дивитися IP-адреси'
+      view_user_list_label: 'Дивитися список користувачів'
+    settings:
+      submit_button: '=> core.ref.save_changes'
+    upload_image:
+      remove_button: '=> core.ref.remove'
+      upload_button: 'Вибрати зображення...'
+  api:
+    invalid_username_message: 'Ім’я користувача може містити лише літерии, цифри та тире.'
+  email:
+    activate_account:
+      body: "Hey {username}!\n\nSomeone (hopefully you!) has signed up to {forum} with this email address.\n\nIf this was you, simply click the following link and your account will be activated:\n{url}\n\nIf you did not sign up, please ignore this email.\n"
+      subject: 'Активація Вашого облікового запису'
+    confirm_email:
+      body: "Hey {username}!\n\nSomeone (hopefully you!) has changed their email address on {forum} to this one.\n\nIf this was you, simply click the following link and your email will be confirmed:\n{url}\n\nIf this was not you, please ignore this email.\n"
+      subject: 'Підтвердження нового email'
+    reset_password:
+      body: "Hey {username}!\n\nSomeone (hopefully you!) has submitted a forgotten password request for your account on {forum}.\n\nIf this was you, click the following link to reset your password:\n{url}\n\nIf you do not wish to change your password, just ignore this email and nothing will happen.\n"
+      subject: '=> core.ref.reset_your_password'
+  forum:
+    change_email:
+      confirm_password_placeholder: '=> core.ref.confirm_password'
+      confirmation_message: '=> core.ref.confirmation_email_sent'
+      dismiss_button: '=> core.ref.okay'
+      incorrect_password_message: 'Введений Вами пароль невірний.'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.change_email'
+    change_password:
+      send_button: 'Надіслати пароль на E-mail'
+      text: 'Натисніть на кнопку нижче для відправки посилання для зміни пароля на Ваш E-mail.'
+      title: '=> core.ref.change_password'
+    composer_discussion:
+      body_placeholder: 'Написати повідомлення...'
+      discard_confirmation: 'Ви не створили дискусію. Ви хочете скасувати створення дискусії?'
+      submit_button: 'Відправити'
+      title: '=> core.ref.start_a_discussion'
+      title_placeholder: 'Назва дискусії'
+    composer_edit:
+      discard_confirmation: 'Ви не зберегли зміни. Ви хочете відмовитися від них?'
+      post_link: 'Повідомлення #{number} в {discussion}'
+      submit_button: '=> core.ref.save_changes'
+    composer_reply:
+      body_placeholder: '=> core.ref.write_a_reply'
+      discard_confirmation: 'Ви не відправили свою відповідь. Ви хочете скасувати створення повідомлення?'
+      posted_message: 'Ваш відповідь опублікована.'
+      submit_button: 'Відправити'
+      view_button: Переглянути
+    composer:
+      close_tooltip: Закрити
+      exit_full_screen_tooltip: 'Вихід з повноекранного режиму'
+      full_screen_tooltip: 'Розгорнути'
+      minimize_tooltip: Згорнути
+      preview_tooltip: Передогляд
+    discussion_controls:
+      cannot_reply_button: 'Не можна відповісти'
+      cannot_reply_text: 'У Вас немає прав доступу для публікації відповіді в цій дискусії.'
+      delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Ви впевнені, що хочете видалити дискусію?'
+      delete_forever_button: '=> core.ref.delete_forever'
+      log_in_to_reply_button: 'Увійти для відповіді'
+      rename_button: '=> core.ref.rename'
+      reply_button: '=> core.ref.reply'
+      restore_button: '=> core.ref.restore'
+    discussion_list:
+      empty_text: 'Тут немає дискусій. Чому б Вам не створити?'
+      load_more_button: '=> core.ref.load_more'
+      mark_as_read_tooltip: 'Позначити як прочитане'
+      replied_text: '{username} відповів(ла) {ago}'
+      started_text: '{username} створив(ла) {ago}'
+    edit_user:
+      activate_button: 'Активувати користувача'
+      email_heading: '=> core.ref.email'
+      email_label: '=> core.ref.email'
+      groups_heading: Групи
+      password_heading: '=> core.ref.password'
+      password_label: '=> core.ref.password'
+      set_password_label: 'Новий пароль'
+      submit_button: '=> core.ref.save_changes'
+      title: 'Редагування користувача'
+      username_heading: '=> core.ref.username'
+      username_label: '=> core.ref.username'
+    forgot_password:
+      dismiss_button: '=> core.ref.okay'
+      email_placeholder: '=> core.ref.email'
+      email_sent_message: 'Ми відправили Вам лист, що містить посилання для відновлення пароля. Перевірте папку зі спамом, якщо Ви не отримали листа протягом деякого часу.'
+      not_found_message: 'Користувача з таким email не знайденно.'
+      submit_button: 'Відновити пароль'
+      text: 'Введіть свій email, і ми надішлемо Вам посилання для відновлення пароля.'
+      title: 'Забули пароль'
+    header:
+      admin_button: Адміністрування
+      back_to_index_tooltip: 'На головну'
+      log_in_link: '=> core.ref.log_in'
+      log_out_button: '=> core.ref.log_out'
+      profile_button: Профіль
+      search_placeholder: 'Пошук...'
+      settings_button: '=> core.ref.settings'
+      sign_up_link: '=> core.ref.sign_up'
+    index_sort:
+      latest_button: Останні
+      newest_button: Нові
+      oldest_button: Старі
+      relevance_button: За релевантністю
+      top_button: Популярні
+    index:
+      all_discussions_link: '=> core.ref.all_discussions'
+      cannot_start_discussion_button: 'Не можна створити'
+      mark_all_as_read_confirmation: 'Ви впевнені, що хочете позначити всі дискусії як прочитані?'
+      mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      refresh_tooltip: Оновити
+      start_discussion_button: '=> core.ref.start_a_discussion'
+    log_in:
+      forgot_password_link: 'Забули пароль?'
+      invalid_login_message: 'Ваші дані для входу некоректні.'
+      password_placeholder: '=> core.ref.password'
+      remember_me_label: 'Запам’ятати Мене'
+      sign_up_text: 'Немає облікового запису? <a>Реєстрація</a>'
+      submit_button: '=> core.ref.log_in'
+      title: '=> core.ref.log_in'
+      username_or_email_placeholder: 'Ім''я користувача або E-mail'
+    notifications:
+      discussion_renamed_text: '{username} змінив(ла) назву'
+      empty_text: 'Немає сповіщень'
+      mark_all_as_read_tooltip: '=> core.ref.mark_all_as_read'
+      mark_as_read_tooltip: 'Mark as Read'
+      title: '=> core.ref.notifications'
+      tooltip: '=> core.ref.notifications'
+    post_controls:
+      delete_button: '=> core.ref.delete'
+      delete_forever_button: '=> core.ref.delete_forever'
+      edit_button: '=> core.ref.edit'
+      restore_button: '=> core.ref.restore'
+    post_scrubber:
+      now_link: Зараз
+      original_post_link: 'Початок'
+      unread_text: '{count} не прочитано'
+      viewing_text: '{index} з {count} повідомлень'
+    post_stream:
+      discussion_renamed_old_tooltip: 'Стара назва була: "{old}"'
+      discussion_renamed_text: '{username} змінив(ла) назву з "{old}" на "{new}".'
+      load_more_button: '=> core.ref.load_more'
+      reply_placeholder: '=> core.ref.write_a_reply'
+      time_lapsed_text: '{period} пізніше'
+    post:
+      edited_text: Змінено
+      edited_tooltip: '{username} відредагував(ла) {ago}'
+      number_tooltip: 'Повідомлення #{number}'
+    rename_discussion:
+      submit_button: '=> core.ref.rename'
+      title: 'Перейменувати дискусію'
+    search:
+      all_discussions_button: 'Пошук за запитом: "{query}"'
+      discussions_heading: '=> core.ref.discussions'
+      users_heading: 'Користувачі'
+    settings:
+      account_heading: Обліковий запис
+      change_email_button: '=> core.ref.change_email'
+      change_password_button: '=> core.ref.change_password'
+      notifications_heading: '=> core.ref.notifications'
+      notify_by_email_heading: '=> core.ref.email'
+      notify_by_web_heading: Web
+      notify_discussion_renamed_label: 'Хтось перейменував мою дискусію'
+      privacy_disclose_online_label: 'Показувати онлайн-статус'
+      privacy_heading: Конфіденційність
+      title: '=> core.ref.settings'
+    sign_up:
+      dismiss_button: '=> core.ref.okay'
+      email_placeholder: '=> core.ref.email'
+      log_in_text: 'Зареєстровані? <a>Увійти</a>'
+      password_placeholder: '=> core.ref.password'
+      submit_button: '=> core.ref.sign_up'
+      title: '=> core.ref.sign_up'
+      username_placeholder: '=> core.ref.username'
+      welcome_text: 'Привіт, {username}!'
+    user_controls:
+      button: Управління
+      delete_button: '=> core.ref.delete'
+      delete_confirmation: 'Ви впевнені, що хочете видалити користувача? Всі повідомлення, написані користувачем, також будуть видалені.'
+      delete_error_message: 'Deletion of user <i>%1$s (%1$s)</i> failed'
+      delete_success_message: 'User <i>%1$s (%1$s)</i> was deleted'
+      edit_button: '=> core.ref.edit'
+    user_email_confirmation:
+      alert_message: '=> core.ref.confirmation_email_sent'
+      resend_button: 'Повторно відправити підтвердження на email'
+      sent_message: Відправлено
+    user:
+      avatar_remove_button: '=> core.ref.remove'
+      avatar_upload_button: Завантажити
+      avatar_upload_tooltip: 'Завантажити новий аватар'
+      discussions_link: '=> core.ref.discussions'
+      in_discussion_text: 'в "{discussion}"'
+      joined_date_text: 'Приєднався: {ago}'
+      online_text: Онлайн
+      posts_empty_text: 'Схоже, що тут ще немає повідомлень.'
+      posts_link: '=> core.ref.posts'
+      posts_load_more_button: '=> core.ref.load_more'
+      settings_link: '=> core.ref.settings'
+  group:
+    admin: Адміністратор
+    admins: Адміністратори
+    guest: Гість
+    guests: Гості
+    member: Користувач
+    members: Користувачі
+    mod: Модератор
+    mods: Модератори
+  lib:
+    badge:
+      hidden_tooltip: Дискусія прихована
+    error:
+      generic_message: 'Помилка. Будь ласка , оновіть сторінку та спробуйте ще раз.'
+      not_found_message: 'Ресурс не знайдено.'
+      permission_denied_message: 'У Вас немає прав доступу для виконання цієї дії.'
+      rate_limit_exceeded_message: 'Ви розміщуєте повідомлення занадто часто. Будь ласка , спробуйте ще раз через деякий час.'
+    number_suffix:
+      kilo_text: K
+      mega_text: M
+    series:
+      glue_text: ', '
+      three_text: '{first}, {second} та {third}'
+      two_text: '{first} і {second}'
+    username:
+      deleted_text: '[видалено]'
+  ref:
+    all_discussions: 'Всі дискусії'
+    change_email: 'Змінити email'
+    change_password: 'Змінити пароль'
+    color: Колір
+    confirm_password: 'Підтвердити пароль'
+    confirmation_email_sent: 'Ми відправили лист з підтвердженням на адресу {email}. Якщо Ви не отримаєте лист найближчим часом, перевірте теку зі спамом.'
+    custom_footer_text: 'Додати HTML-код який відображатиметься внизу кожної сторінки.'
+    custom_footer_title: 'Редагувати кастомний футер'
+    custom_header_text: 'Додати HTML-код, який відображатиметься угорі сторінки'
+    custom_header_title: 'Редагувати кастомну шапку'
+    delete: Видалити
+    delete_forever: 'Видалити (физічно)'
+    discussions: Дискусії
+    edit: Редагувати
+    email: email
+    icon: Icon
+    icon_text: 'Enter the name of any <a>FontAwesome</a> icon class, <em>including</em> the <code>fas fa-</code> prefix.'
+    load_more: 'Завантажити ще'
+    log_in: 'Увійти'
+    log_out: 'Вийти'
+    mark_all_as_read: 'Позначити все, як прочитане'
+    next_page: 'Наступна сторінка'
+    notifications: Оповіщення
+    okay: OK
+    password: Пароль
+    posts: Повідомлення
+    previous_page: 'Попередня сторінка'
+    remove: Видалити
+    rename: Перейменувати
+    reply: Відповісти
+    reset_your_password: 'Скинути пароль'
+    restore: Відновити
+    save_changes: 'Зберегти'
+    settings: Налаштування
+    sign_up: 'Реєстрація'
+    some_others: '{count} іншому|{count} іншим'
+    start_a_discussion: 'Створити дискусію'
+    username: Ім'я користувача
+    users: Користувачі
+    write_a_reply: 'Написати відповідь...'
+    you: Вам
+  views:
+    content:
+      javascript_disabled_message: 'Цей сайт найкраще переглядати в сучасному браузері з включеним JavaScript.'
+      load_error_message: 'Щось пішло не так під час спроби завантаження повної версії цього сайту.'
+      loading_text: Завантаження...
+    discussion:
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
+    error:
+      csrf_token_mismatch: 'You have been inactive for too long.'
+      csrf_token_mismatch_return_link: 'Go back, to try again'
+      invalid_confirmation_token: 'This confirmation link has already been used or is invalid.'
+      not_authenticated: 'You do not have permission to access this page. Try again after logging in.'
+      not_found: 'The page you requested could not be found.'
+      not_found_return_link: 'Return to %1$s'
+      permission_denied: 'You do not have permission to access this page.'
+      unknown: 'An error occurred while trying to load this page.'
+    index:
+      all_discussions_heading: '=> core.ref.all_discussions'
+      next_page_button: '=> core.ref.next_page'
+      previous_page_button: '=> core.ref.previous_page'
+    log_out:
+      log_out_button: '=> core.ref.log_out'
+      log_out_confirmation: 'Ви дійсно хочте вийти з {forum}?'
+      title: '=> core.ref.log_out'
+    reset_password:
+      confirm_password_label: 'Підтвердити новий пароль'
+      new_password_label: 'Новий пароль'
+      submit_button: '=> core.ref.save_changes'
+      title: '=> core.ref.reset_your_password'
